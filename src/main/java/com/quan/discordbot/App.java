@@ -8,7 +8,7 @@ import org.javacord.api.interaction.SlashCommandInteraction;
 
 public class App {
 	public static void main(String[] args) {
-		String token = "MTA0ODU2OTc2OTIxOTA4NDM0OA.G7Y50l.27K0bdIJONddk48_jDX9DHx0jFFtuSQz-qZddc";
+		String token = "token goes here";
 		DiscordApi api = new DiscordApiBuilder().setToken(token).addIntents(Intent.MESSAGE_CONTENT).login().join();
 
 		api.addMessageCreateListener(event -> {
